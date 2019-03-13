@@ -9,14 +9,18 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: fantasy;
+  
 }
+
+
 
 .App-link {
   color: #61dafb;
@@ -30,3 +34,95 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navigation{
+  padding: 300px;
+  background-image: url(./images/6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  font-size: calc(10px + 2vmin);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:black;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.App-footer{
+    background-color: #282c34;
+    min-height: 1vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 2%;
+}
+
+
+.infoTable{
+  background-color: #64a05f;
+  border: 2px solid black;
+  /* border-color: black;
+  border-width: 2px;
+  border-style: solid; */
+  border-collapse: collapse;
+}
+
+.infoTable th,
+.infoTable td {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+
+.infoCards{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  color: white;
+  padding: 10px;
+  background-color: #282c34;
+  margin: 10px;
+  overflow: auto;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.read-more{
+  float: right;
+
+}
+
+.like-button{
+  
+}
+
+.buttons-container{
+  display: flex;
+  display: inline;
+  
+}
+
+.comments-Box{
+   width: 50px;
+
+}
+
+.commentsArea{
+  width: 250px;
+  height: 50px;
+}
+
+.submit{
+margin: 10px;
+}
+
